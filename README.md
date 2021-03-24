@@ -14,17 +14,34 @@
 ## Description
 For this week homework assignment, the task is to build the back end for an e-commerce site by modifying starter code and by configuring a working Express.js API to use Sequelize to interact with a MySQL database.
 
-## App Demo
+### App Demo
 
-![](./Assets/SS.gif)
-![](./Assets/SS.gif)
-![](./Assets/SS.gif)
-![](./Assets/SS.gif)
-![](./Assets/SS.gif)
-![](./Assets/SS.gif)
-![](./Assets/SS.gif)
+- Create Schema, seed data, and start application
 
-## User Story
+![](./Assets/SS1.gif)
+
+- GET routes for all categories, all products, and all tags
+
+![](./Assets/SS2.gif)
+
+- GET routes for a single category, a single product, and a single tag
+
+![](./Assets/SS3.gif)
+
+- POST, PUT, and DELETE routes for categories
+
+![](./Assets/SS4.gif)
+
+- POST, PUT, and DELETE routes for products
+
+![](./Assets/SS5.gif)
+
+- POST, PUT, and DELETE routes for tags
+
+![](./Assets/SS6.gif)
+
+
+### User Story
 
 ```md
 AS A manager at an internet retail company
@@ -32,7 +49,7 @@ I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies
 ```
 
-## Acceptance Criteria
+### Acceptance Criteria
 
 ```md
 GIVEN a functional Express.js API
@@ -152,10 +169,12 @@ Your database should contain the following four models, including the requiremen
 
     * References the `Tag` model's `id`.
 
-    ### Associations
+### Associations
 
 You'll need to execute association methods on your Sequelize models to create the following relationships between them:
 
 * `Product` belongs to `Category`, and `Category` has many `Product` models, as a category can have multiple products but a product can only belong to one category.
 
 * `Product` belongs to many `Tag` models, and `Tag` belongs to many `Product` models. Allow products to have multiple tags and tags to have many products by using the `ProductTag` through model.
+
+- Video Link - https://drive.google.com/file/d/1jSjWhS6pkt5Ot1v30W8Q7ajwlPlLiSse/view
